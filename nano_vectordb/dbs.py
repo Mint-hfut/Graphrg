@@ -165,7 +165,7 @@ class NanoVectorDB:
 class MilvusDB(BaseKVStorage):
     embedding_dim: int = 768
     metric: str = "COSINE"
-    milvus_uri: str = "https://172.31.192.45:30716"  # Default Milvus URI
+    milvus_uri: str = "Milvus.db"  # Default Milvus URI
     milvus_user: str = ""  # Default user
     milvus_password: str = ""  # Default password
     collection_name: str = "nano_vectordb_collection"
